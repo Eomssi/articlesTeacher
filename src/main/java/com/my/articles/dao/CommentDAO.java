@@ -31,7 +31,7 @@ public class CommentDAO {
     }
 
     public void updateComment(Comment comment) {
-        Comment updateCommnet = em.find(Comment.class, comment.getId());
-        updateCommnet.setBody(comment.getBody());
+        Comment updateComment = em.find(Comment.class, comment.getId());
+        updateComment.setBody(comment.getBody());
     }
 }
